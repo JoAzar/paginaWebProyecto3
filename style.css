@@ -44,6 +44,12 @@ body {
     color:#f0c200
 }
 
+.opciones:hover {
+    -webkit-box-shadow: 0px 0px 30px 1px rgba(255,213,46,0.86);
+    -moz-box-shadow: 0px 0px 30px 1px rgba(255,213,46,0.86);
+    box-shadow: 0px 0px 30px 1px rgba(255,213,46,0.86);
+}
+
 .icono {
     background-color: #f0c200;
     border-radius: 5px;
@@ -124,4 +130,50 @@ body {
     top: 1.5em;
     margin: auto;
     position: relative;
+}
+
+.slogan {
+    font-family: 'Rubik Distressed', cursive;
+    font-size: 9em;
+    color: #f0c200;
+    text-align: center;
+}
+
+.blanco {
+    color: white;
+    text-align: center;
+}
+
+.divSlogan {
+    padding: 5em 0 0 8em;
+    
+}
+
+.plato {
+    padding-top: 200px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    max-width: 80%;
+    max-width: 442px;
+    margin: auto;
+}
+
+.platos {
+    width: 21.9em;
+    border-radius: 20px 0 0 20px;
+    position: relative;
+    left: 0;
+    top: 0;
+    transition: .3s;
+
+}
+
+.postres, .copas {
+    width: 10.9em;
+    margin: 0 0 0 .2em;
+    position: relative;
+}
+
+.opciones2 {
+    color: white;
 }
