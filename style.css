@@ -63,7 +63,7 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-.uno, dos {
+.uno {
     color: #f0c200;
     margin-left: 20px;
     margin-right: 20px;
@@ -135,18 +135,28 @@ body {
 .slogan {
     font-family: 'Rubik Distressed', cursive;
     font-size: 9em;
-    color: #f0c200;
+    color: #ffffffa6;
     text-align: center;
+    
 }
 
 .blanco {
-    color: white;
+    color: rgba(255, 157, 9, 0.582);
     text-align: center;
 }
 
 .divSlogan {
     padding: 5em 0 0 8em;
-    
+    background-image: url("/imagenes/fire.png");
+    background-position: 0px;
+    background-size: 2000px;
+    background-repeat: repeat;
+    border-top: solid 4px #ffd6646c;
+    border-bottom: solid 4px #ffd6646c;
+}
+
+.divSlogan:hover {
+    animation: curvyAnimation 5s linear infinite;
 }
 
 .plato {
@@ -176,4 +186,14 @@ body {
 
 .opciones2 {
     color: white;
+}
+
+@keyframes curvyAnimation {
+    0%, 100% {
+        background-position-x: 0%;
+    }
+    50% {
+      background-position-x: 100%;
+    }
+    
 }
