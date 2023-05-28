@@ -188,6 +188,21 @@ body {
     color: white;
 }
 
+.custom-df-messenger {
+    width: 200px;
+    height: 200px;
+}
+
+df-messenger {
+    --df-messenger-bot-message: #e6a52f;
+    --df-messenger-button-titlebar-color: #dbad15;
+    --df-messenger-chat-background-color: #313131;
+    --df-messenger-font-color: rgb(46, 46, 46);
+    --df-messenger-send-icon: #ff7e57;
+    --df-messenger-user-message: #ffffff;
+}
+ 
+
 @keyframes curvyAnimation {
     0%, 100% {
         background-position-x: 0%;
