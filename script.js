@@ -5,7 +5,7 @@ var mouseSobrePlatos = document.querySelector(".plato");
 
 desplegarMenu.addEventListener("click",() => {
     if(estaDesplegado){
-       document.getElementById("desplegable").style.top="5em";
+       document.getElementById("desplegable").style.top="200%";
         document.getElementById("desplegable").style.opacity="1";
         desplegarMenu.setAttribute("icon", "mdi:apple-keyboard-shift");  
     }else{
